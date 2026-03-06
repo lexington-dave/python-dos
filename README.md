@@ -3,8 +3,8 @@
 1. install rich
    `pip install rich`
 1. Clone this repository:
-   `git clone https://github.com`
+   `git clone https://github.com/lexington-dave/python-dos.git`
 2. Navigate to the folder:
-   `cd YOUR_REPO_NAME`
+   `cd python-dos`
 3. Run the script:
-   `python pdos.py`
+   `python pingdos.py`
