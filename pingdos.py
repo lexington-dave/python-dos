@@ -4,10 +4,11 @@ from rich import print
 import subprocess
 import time
 
+
 print(r"""
            [bold blue]___________________________________________________
-          (           _________                              |[/bold blue][>
-           [bold blue](_________________________________________________|[/>
+          (           _________                              |[/bold blue][orange1]0        ==     _            ==    +         *       --[/orange1]
+           [bold blue](_________________________________________________|[/bold blue][orange1]   ==   0   - 0         -  ++           --  == 0 ++ ==[/orange1]
            [bold blue]/ /  |                     | P |
           / /__/                      | D |
          / /                          | O |
@@ -39,5 +40,6 @@ def send_ping(ip):
     except KeyboardInterrupt:
          print("\n[yellow][*] Attack stopped by user.[/yellow]")
 send_ping(ip)
+
 
                              
