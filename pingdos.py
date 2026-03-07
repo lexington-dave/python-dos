@@ -15,7 +15,7 @@ ip = args.ip or console.input("[red]enter target ip:[/red]")
 print(r"""
            [bold blue]___________________________________________________
           (           _________                              |[/bold blue][orange1]0        ==     _            ==    +         *       --[/orange1]
-           [bold blue](_________________________________________________|[/bold blue][orange1]   ==   0   - 0         -  ++           --  == 0 ++ ==[/orange1]
+           [bold blue](_________________________________________________|[/bold blue][orange1]   ==   0   - 0         -  ++    == --  == 0 ++ ==[/orange1]
            [bold blue]/ /  |                     | P |
           / /__/                      | D |
          / /                          | O |
@@ -50,5 +50,6 @@ send_ping(ip)
 
 
                              
+
 
 
