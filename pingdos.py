@@ -3,6 +3,12 @@ from rich.console import Console
 from rich import print
 import subprocess
 import time
+import argparse
+
+parser = argparse.ArgumentParser(description="Hash Ripper CLI")
+parser.add_argument("-i", "--ip", help="ip address")
+
+ip = args.ip or console.input("[red]enter target ip:[/red]")
 
 
 print(r"""
@@ -21,7 +27,7 @@ print("[cyan][*] Starting PDOS[/cyan]")
 time.sleep(3)
 
 console = Console()
-ip = console.input("[red]enter target ip:[/red] ")
+
 
 print(f"[cyan][*]starting attack on {ip}[/cyan]")
 
@@ -43,3 +49,4 @@ send_ping(ip)
 
 
                              
+
