@@ -2,7 +2,7 @@
 ## How to Use
 ### Ethical Use Only!!!!!!!!!
 1. install rich
-   `pip install -r requirments.txt`
+   `pip install -r requirements.txt`
 1. Clone this repository:
    `git clone https://github.com/lexington-dave/python-dos.git`
 2. Navigate to the folder:
