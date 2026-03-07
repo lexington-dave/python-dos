@@ -1,5 +1,6 @@
 # python-dos
 ## How to Use
+## Ethical Use Only!!!!!!!!!
 1. install rich
    `pip install rich`
 1. Clone this repository:
