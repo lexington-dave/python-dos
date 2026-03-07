@@ -5,8 +5,9 @@ import subprocess
 import time
 import argparse
 
-parser = argparse.ArgumentParser(description="Hash Ripper CLI")
+parser = argparse.ArgumentParser(description="Python dos")
 parser.add_argument("-i", "--ip", help="ip address")
+args = parser.parse_args()
 
 ip = args.ip or console.input("[red]enter target ip:[/red]")
 
@@ -49,4 +50,5 @@ send_ping(ip)
 
 
                              
+
 
