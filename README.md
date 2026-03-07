@@ -13,7 +13,7 @@ A simple Python-based network testing tool for educational purposes. Do not use 
    pip install rich
 3. **cd into python-dos:**
    ```bash
-   cd python-dod
+   cd python-dos
 3. **Run the script:**
    ```bash
    python pingdos.py
