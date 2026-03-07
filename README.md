@@ -1,8 +1,13 @@
-# python-dos
-## How to Use
-### Ethical Use Only!!!!!!!!!
-1. install rich
-   `pip install -r requirements.txt`
+# Python-DoS 🚀
+### ⚠️ Ethical Use Only! 
+
+A simple Python-based network testing tool for educational purposes. Do not use on networks you do not own.
+
+## 🛠️ Setup
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
 1. Clone this repository:
    `git clone https://github.com/lexington-dave/python-dos.git`
 2. Navigate to the folder:
